@@ -40,7 +40,7 @@ void loop()
   timer0 = 0;
   FastLED.clear(); // clears any previous values written to the pixels
   
-  leds[i] = CHSV((i * 255 / NUM_LEDS), 255, 255);
+  leds[i] = CHSV(((NUM_LEDS-i) * 255 / NUM_LEDS), 255, 255);
   
   FastLED.show();  // turns on all of the pixels with whatever settings you instructed
   i++;

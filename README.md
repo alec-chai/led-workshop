@@ -1,4 +1,4 @@
-# led-workshop
+# LED Workshop
 
 This github repository was created on October 3, 2022 for the CEID LED programming workshop.
 

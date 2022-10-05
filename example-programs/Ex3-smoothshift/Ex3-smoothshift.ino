@@ -1,4 +1,5 @@
 #include "FastLED.h"
+#include <elapsedMillis.h>
 
 /*
  * This program linearly maps the range of possible hues (0-255) 
@@ -9,11 +10,11 @@
 #error "Requires FastLED 3.1 or later; check github for latest code."
 #endif
 
-#define DATA_PIN    17      // Set this to whatever Arduino pin DIN is connected to
+#define DATA_PIN    2      // Set this to whatever Arduino pin DIN is connected to
 //#define CLK_PIN   4
 #define LED_TYPE    WS2812  // This is the type of chip inside of our addressable LED Strip
 #define COLOR_ORDER GRB     // Neopixels apparently like commands sent in "GRB" order, so we specify this so we can still write in "RGB" order
-#define NUM_LEDS    255     // Set this to the number of LED "pixels" in your strip
+#define NUM_LEDS    21     // Set this to the number of LED "pixels" in your strip
 #define BRIGHTNESS  100      // This is the initial brightness (max value is 255)
 
 

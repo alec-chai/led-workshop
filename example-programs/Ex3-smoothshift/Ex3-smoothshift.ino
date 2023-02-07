@@ -10,7 +10,7 @@
 #error "Requires FastLED 3.1 or later; check github for latest code."
 #endif
 
-#define DATA_PIN    2      // Set this to whatever Arduino pin DIN is connected to
+#define DATA_PIN    7      // Set this to whatever Arduino pin DIN is connected to
 //#define CLK_PIN   4
 #define LED_TYPE    WS2812  // This is the type of chip inside of our addressable LED Strip
 #define COLOR_ORDER GRB     // Neopixels apparently like commands sent in "GRB" order, so we specify this so we can still write in "RGB" order
